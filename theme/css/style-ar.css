@@ -1,0 +1,237 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+@font-face {
+    font-family: 'Louguiya';
+    src: url('./Louguiya/Louguiya_Fonts/Louguiya Bold.ttf');
+    /*font-size:18px;*/
+}
+
+*{
+    font-family: "Louguiya", serif;
+    font-size: 18px;
+
+}
+
+body{
+    font-size: 18px;
+    /* margin-right: 5px; */
+    font-family: 'Louguiya', sans-serif;
+    line-height: 1.6;
+    align-content: center;
+    font-style: normal;
+    /*padding-left: 24px;*/
+}
+/* .form-control{
+    height: 40px;
+} */
+
+nav{
+    /* background: linear-gradient(to left , #fff 0%, #00A95C 35%, rgb(56, 122, 95) 100%,); */
+    background-image: linear-gradient(to left , rgb(56, 122, 95),#00A95C,#fff);
+}
+
+
+.footer-btm{
+    background-image: linear-gradient(to left , rgb(56, 122, 95),#00A95C,#fff);
+        color: #fff;
+    }
+
+
+#header-body{
+    margin-right: 2.8cm;
+}
+.fa, .glyphicon, .img-iverser {
+    transform: scaleX(-1);
+}
+
+.list-inline-item .fa{
+    transform: scaleX(1);
+}
+.list-group-item span{
+    font-weight:bold;
+    font-size:17px
+}
+
+.list-group-item{
+    text-align: right !important;
+    padding: 10px;
+
+}
+
+.list-group-item .side-menu{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.categorie-name img, .categorie-name a {
+    float: right;
+    height: 30px;
+    line-height: 30px;
+}
+.categorie-name img {
+    margin-left: 10px;
+}
+
+.categorie-list{
+    height: 170px;
+    font-style: normal;
+}
+
+.nav > li {
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    border-right: 0px solid rgba(255, 255, 255, 0.1);
+}
+
+.title_actualite{
+    color:#800000;font: 18px Georgia, 'Times New Roman', Times, serif;}
+
+.collapse{
+    font-size: 13px;
+}
+
+.titre_search{
+    margin-right: 100px;margin-top: 10px;font-size: large;
+}
+
+.titre_search, h3{
+    font-family: 'Louguiya', sans-serif;
+    font-style: normal;
+}
+
+#footer{
+    font-family: 'Louguiya', sans-serif;
+    font-style: normal;
+    height: 35px;
+    padding-top: 5px;
+
+}
+.panel-title {
+    font-size: 18px;
+    font-family: 'Louguiya', sans-serif;
+    margin-right: 250px;color:#333;
+}
+
+.repmarge{
+    margin-right: 25px;
+}
+
+.repmarge{
+    font-size: 16px;
+    font-family: 'Louguiya', sans-serif;
+
+}
+._titre{
+    font-family: 'Louguiya', sans-serif;  
+    font-style: normal;
+}
+
+
+.subscribe .btn {
+    position: absolute;
+    left: 6px;
+    right: inherit;
+    top: 3px;
+}
+
+.card-body{
+    text-align: right;
+}
+
+
+.footer-socials li a {
+    /*padding-top: 6px;*/
+    font-size: 16px;
+}
+
+
+#myTabContent{
+    text-align: right ;
+}
+
+
+.list-unstyled {
+    text-align:right;
+}
+
+.btn{
+    font-family: 'Louguiya', sans-serif;
+    font-style: normal;
+}
+
+div{
+    text-align: right;
+}
+
+.header-top-bar {
+    /* background: #223a66; */
+    background: black;
+    /*font-size: 16px;*/
+    padding: 5px 0px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #fff;
+    /*padding: 10px;*/
+    max-height:35px
+}
+
+.p_request{
+    font-family: 'Louguiya', sans-serif;
+    font-style: normal;
+}
+
+
+.p_response{
+    font-family: 'Louguiya', sans-serif;
+    font-style: normal;
+    margin-right: 30px;
+}
+
+.card, ._form{
+    text-align: right;
+}
+
+.form-check input {
+    overflow: visible;
+    margin-right: 25px;
+}
+
+label {
+font-size: 20px;
+    font-weight: normal;
+}
+
+#content_top{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.menu-title{
+    font-size:18px;font-weight:normal;
+}
+
+.card-title{
+    font-size:18px;font-weight:normal;
+}
+
+
+.accordion-button::after {
+       /* padding-left: 90%;
+       float: left !important;
+       text-align: left !important; */
+       /* right: 100% !important;
+       left:0 !important; */
+display: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+    /* margin-right: 90%;
+    float: left !important;
+    text-align: left !important; */
+    /* right: 0 !important;
+    left:100% !important; */
+    display: none;
+}
+
+.form-check .form-check-input {
+    float: right !important;
+    margin-right: -1.5em !important;
+}

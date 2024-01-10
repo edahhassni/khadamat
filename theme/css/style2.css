@@ -1,0 +1,36 @@
+
+/*********************************/
+.menu1 { /* boite qui contient le menu (les onglets) */
+  border-bottom:solid 1px white ; /* crÃ©e le trait noir en-dessous des onglets */
+  padding-top:12px ; /* marge intÃ©rieure haute */
+  padding-bottom:1px;
+  background: #f4f9fc;
+ /* background: #008455;*/
+   color: green;
+
+    } /* marge intÃ©rieure basse */
+
+.onglet { /* style des onglets inactifs */
+  border:solid 1px green ; /* encadrement */
+  /*margin:5px 5px 0px 5px ; /* marge extÃ©rieure */
+  margin:0px;
+  padding:7px 3px 7px 3px;   
+} /* marge intÃ©rieure */
+  
+
+
+a.onglet { /* style des liens se trouvant dans un onglet inactif */
+  background-color:#eee ; /* le fond de l'onglet est gris */
+  text-decoration:none;  	 
+  font-family: "Roboto", sans-serif;
+  color:green;
+} /* les liens ne sont pas soulignÃ©s */
+
+
+.onglet-actif { /* style de l'onglet de la page active */
+   border:solid 1px white; /* l'encadrement est portÃ© Ã  2 pixels */
+   border-bottom:solid 0px white ; /* le trait infÃ©rieur est effacÃ© */
+   margin:5px 5px 0px 5px ; /* marges intÃ©rieures */
+   padding:7px 3px 7px 3px ; /* marges extÃ©rieures */  
+   background-color:white; color:green; 
+} /* le fond de l'onglet actif est blanc*/
